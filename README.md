@@ -1,5 +1,10 @@
 # Workflow
 
+## Сбросить состояние до ветки master
+```
+git reset --hard origin/master
+```
+
 ## Чтобы стянуть актуальную версию кода:
 ```
 git pull
