@@ -40,3 +40,30 @@ git push
 
 8. Ожидайте рецензии и мержа:
 Владелец оригинального репозитория сможет просмотреть ваши изменения, оставить комментарии и принять или отклонить pull request. После принятия изменения будут включены в оригинальный репозиторий.
+
+## Настройки gitconfig
+Pull из оригинального репозитория в клон форка
+```
+[core]
+    repositoryformatversion = 0
+    filemode = true
+    bare = false
+    logallrefupdates = true
+
+[remote "origin"]
+    url = git@github.com:Vehsemel/elpts-system.ru.git
+    fetch = +refs/heads/*:refs/remotes/origin/*
+
+[branch "master"]
+ remote = upstream
+ merge = refs/heads/master
+
+[remote "upstream"]
+    url = git@github.com:nikiforov-org/elpts-system.ru.git
+    fetch = +refs/heads/*:refs/remotes/upstream/*
+
+[merge]
+    rebase = true
+[pull]
+    rebase = false
+```
