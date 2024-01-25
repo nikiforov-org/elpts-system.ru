@@ -85,4 +85,6 @@ Pull из оригинального репозитория в клон форк
 [pull]
     rebase = false
     
-``` The end.
+```
+
+The end.
