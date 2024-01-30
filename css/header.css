@@ -1,0 +1,14 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+header {
+    background-color: rgb(50, 115, 124);
+    color: #fff;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
