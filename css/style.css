@@ -19,27 +19,28 @@
   color: white;
   margin-left: 8px;
 }
+
 .logo_nav {
   width: 25px;
 }
 
-.logo_nav_end{
+.logo_nav_end {
   width: 25px;
 }
-
 
 .nav_top_block {
   display: flex;
   align-items: center;
   margin-right: 10px;
+}
+
+.nav_top_block_link {
+  display: flex;
+  align-items: center;
   text-decoration: none;
 }
 
-
-
 .nav_top_block:last-child {
-  display: flex;
-  align-items: center;
   color: #ffffff;
   margin-left: 50px;
 }
@@ -47,6 +48,7 @@
 .nav_top_block_border {
   display: inline-flex;
   align-items: center;
+  margin-left: 4px;
 }
 
 .ghost-button {
